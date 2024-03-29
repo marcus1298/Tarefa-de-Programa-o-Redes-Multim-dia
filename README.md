@@ -1,3 +1,19 @@
+# Relatório do roteiro: 
+Realizar procedimento indicado no arquivo a seguir e enumerar os testes de
+funcionamento realizados e os resultados obtidos. Inserir capturas de telas e/ou
+comentários que considerar pertinente.
+Além disso, link com as instruções da atividade em python:
+https://gaia.cs.umass.edu/kurose_ross/programming/Python_code_only/VideoStream
+ing_programming_lab_only.pdf
+
+Link: https://docs.google.com/document/d/1ha8w8kitTISUG3h0c7RSUKXn7fC7hW5-9CjU9r3adzY/edit?usp=sharing
+
+Tarefa de Programação referente ao Capítulo de Redes Multimídia. Neste laboratório,
+o aluno implementará um servidor de streaming vídeo e um cliente que se comunicam
+usando o protocolo de fluxo contínuo em tempo real (RTSP) e envia dados usando o
+protocolo de tempo real (RTP). O objetivo é implementar o protocolo RTSP no cliente e
+implementar o empacotamento RTP no servidor.
+# Abaixo a implementação de um servidor de streaming em python:
 # Streaming de Vídeo com RTSP e RTP
 Este projeto consiste na implementação de um cliente e um servidor para streaming de vídeo utilizando os protocolos RTSP (Real-Time Streaming Protocol) e RTP (Real-time Transport Protocol).
 
