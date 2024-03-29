@@ -1,19 +1,19 @@
-#Streaming de Vídeo com RTSP e RTP
+# Streaming de Vídeo com RTSP e RTP
 Este projeto consiste na implementação de um cliente e um servidor para streaming de vídeo utilizando os protocolos RTSP (Real-Time Streaming Protocol) e RTP (Real-time Transport Protocol).
 
-#Funcionalidades Implementadas:
-#Cliente (client.py):
+# Funcionalidades Implementadas:
+# Cliente (client.py):
 Estabelecimento de conexão RTSP com o servidor.
 Envio de solicitações RTSP, incluindo SETUP, PLAY, PAUSE e TEARDOWN.
 Recebimento de respostas do servidor.
 Gerenciamento de estado do cliente de acordo com as respostas do servidor.
-#Servidor (server.py):
+# Servidor (server.py):
 Aceita conexões RTSP de clientes.
 Tratamento de solicitações RTSP recebidas dos clientes.
 Resposta a solicitações RTSP, incluindo SETUP, PLAY, PAUSE e TEARDOWN.
 Implementação básica da transmissão de vídeo usando RTP (a ser expandida).
 Como Usar:
-#Cliente:
+# Cliente:
 Execute o script client.py.
 Crie uma instância do RTSPClient passando os seguintes parâmetros:
 server_host: O endereço IP ou nome do host do servidor.
@@ -22,7 +22,7 @@ rtp_port: A porta para receber os pacotes RTP.
 video_file: O nome do arquivo de vídeo a ser solicitado ao servidor.
 Chame os métodos setup(), play(), pause() e teardown() conforme necessário para interagir com o servidor.
 
-#Exemplo de uso:
+# Exemplo de uso:
 
 
 client = RTSPClient('localhost', 554, 1234, 'movie.Mjpeg')
