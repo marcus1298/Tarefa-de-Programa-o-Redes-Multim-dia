@@ -40,6 +40,7 @@ Exemplo de uso:
 
 server = RTSPServer(554, 'movie.Mjpeg')
 server.start()
-Observações:
+
+# Observações:
 Este projeto é uma implementação simplificada e pode ser expandido com recursos adicionais, como tratamento de erros mais robusto, suporte a múltiplos clientes simultâneos, melhorias na transmissão de vídeo RTP, entre outros.
 Certifique-se de ajustar o código conforme necessário para atender aos requisitos específicos da sua aplicação.
